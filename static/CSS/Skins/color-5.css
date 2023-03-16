@@ -9,7 +9,7 @@
 
 .logobox_imagen
 {
-    background-image: url('../../imagenes/ninnalogopurpura.png');
+    background-image: url('../../static/imagenes/ninnalogopurpura.png');
     width: 200px;
     background-repeat: no-repeat;
     background-position: center;
