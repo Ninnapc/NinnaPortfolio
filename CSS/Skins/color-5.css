@@ -1,0 +1,18 @@
+:root
+{
+    --skin-color:#9c108a;
+    --skin-color-change:#839248;
+    --skin-color-clear: rgba(109, 9, 134, 0.3);
+    --skin-color-clear-1: rgba(96, 134, 9, 0.3);
+   
+}
+
+.logobox_imagen
+{
+    background-image: url('../../imagenes/ninnalogopurpura.png');
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 150px;
+}
