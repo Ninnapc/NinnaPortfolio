@@ -1,0 +1,18 @@
+:root
+{
+    --skin-color:#3e98bb;
+    --skin-color-change:#3e98bb;
+    --skin-color-clear: rgba(9, 84, 134, 0.3);
+    --skin-color-clear-1: rgba(96, 134, 9, 0.3);
+   
+}
+
+.logobox_imagen
+{
+    background-image: url('../../imagenes/ninnalogoblue.png');
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 150px;
+}
