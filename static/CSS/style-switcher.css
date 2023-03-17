@@ -89,10 +89,3 @@
     background: #9c108a;
 }
 
-@media (max-width:771px)
-{
-    .style-switcher
-    {
-        right: 60px;
-    }
-}
