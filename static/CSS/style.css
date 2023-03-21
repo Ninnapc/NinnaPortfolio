@@ -576,6 +576,19 @@ h3.my-profession {
   padding-right: 3vw;
 }
 
+#modalservice-content h4
+{
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 25px;
+
+}
+
+#modalservice-content
+{
+  font-family: "Quicksand", sans-serif;
+  margin-left: 15px;
+}
 .close-modal 
 {
   display: flex;
