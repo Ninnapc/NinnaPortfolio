@@ -242,7 +242,7 @@ ul {
   display: block;
   font-family: "Quicksand", sans-serif;
   border-bottom: 2px solid var(--skin-color);
-  padding: 5px 15px;
+  padding: 20px 15px;
 }
 
 .aside .nav li a.active {
@@ -824,6 +824,7 @@ h3.my-profession {
   }
   .aside .nav li a {
     font-size: 12px;
+    padding: 5px 10px;
   }
   .aside .nav li {
     margin-bottom: 10px;
@@ -847,6 +848,7 @@ h3.my-profession {
   }
   .aside .nav li a {
     font-size: 12px;
+    padding: 5px 10px;
   }
   .aside .nav li {
     margin-bottom: 10px;
@@ -868,6 +870,7 @@ h3.my-profession {
   }
   .aside .nav li a {
     font-size: 14px;
+    padding: 5px 10px;
   }
   .aside .nav li {
     margin-bottom: 10px;
@@ -921,6 +924,10 @@ h3.my-profession {
     width: fit-content;
   }
 
+  .aside .nav li a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .service .service-item,
