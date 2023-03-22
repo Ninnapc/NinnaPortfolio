@@ -232,7 +232,7 @@ ul {
 }
 
 .aside .nav li {
-  margin-bottom: 28px;
+  margin-bottom: 28px !important;
 }
 
 .aside .nav li a {
