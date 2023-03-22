@@ -232,7 +232,7 @@ ul {
 }
 
 .aside .nav li {
-  margin-bottom: 28px !important;
+  margin-bottom: 28px;
 }
 
 .aside .nav li a {
@@ -813,7 +813,7 @@ h3.my-profession {
   }
 }
 
-@media (max-width: 896px) and (min-height: 414px) and (orientation:landscape)
+@media (max-width: 896px) and (min-height: 414px)
 {
   .aside .logo {
     top: 10px;
@@ -831,7 +831,7 @@ h3.my-profession {
   }
 }
 
-@media (max-width: 740px) and (min-height: 360px) and (orientation:landscape)
+@media (max-width: 740px) and (min-height: 360px)
 {
   .aside .logo {
     top: 10px;
@@ -854,7 +854,7 @@ h3.my-profession {
     margin-bottom: 10px;
   }
 }
-@media (min-width: 667px) and (min-height: 375px) and (orientation:landscape){
+@media (min-width: 667px) and (min-height: 375px){
 
   .aside .logo {
     top: 10px;
