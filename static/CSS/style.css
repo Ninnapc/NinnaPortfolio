@@ -586,8 +586,18 @@ h3.my-profession {
 
 #modalservice-content
 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Quicksand", sans-serif;
   margin-left: 15px;
+}
+#modalservice-content img
+{
+  justify-content: center;
+   width:fit-content;
+   border-radius: 30px;
+   margin-top: 20px;
 }
 .close-modal 
 {
@@ -803,6 +813,77 @@ h3.my-profession {
   }
 }
 
+@media (max-width: 896px) and (min-height: 414px) and (orientation:landscape)
+{
+  .aside .logo {
+    top: 10px;
+  }
+
+  .aside .nav ul {
+    padding-bottom: 10px;
+  }
+  .aside .nav li a {
+    font-size: 12px;
+  }
+  .aside .nav li {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 740px) and (min-height: 360px) and (orientation:landscape)
+{
+  .aside .logo {
+    top: 10px;
+  }
+
+  .aside .logo .logobox_imagen
+  {
+    margin-top: 30px;
+    width: 150px;
+    height: 70px;
+  }
+  .aside .nav ul {
+    padding-bottom: 10px;
+  }
+  .aside .nav li a {
+    font-size: 12px;
+  }
+  .aside .nav li {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 667px) and (min-height: 375px) and (orientation:landscape){
+
+  .aside .logo {
+    top: 10px;
+  }
+  .aside .logo .logobox_imagen
+  {
+    margin-top: 30px;
+    width: 200px;
+    height: 70px;
+  }
+  .aside .nav ul {
+    margin-bottom: 10px;
+  }
+  .aside .nav li a {
+    font-size: 14px;
+  }
+  .aside .nav li {
+    margin-bottom: 10px;
+  }
+  .close-modal 
+  {
+   margin-right: 20px;
+   margin-top: 20px;
+  }
+  #modalservice-content
+  {
+   padding-bottom: 20px;
+  }
+  
+}
+
 @media (max-width: 850px) {
   .contact .contact-info-item,
   .portfolio .portfolio-item,
@@ -823,6 +904,15 @@ h3.my-profession {
   .main-container {
     width: fit-content;
     padding-left: 5px;
+  }
+  .close-modal 
+  {
+   margin-right: 20px;
+   margin-top: 20px;
+  }
+  #modalservice-content
+  {
+   padding-bottom: 20px;
   }
 }
 
@@ -852,5 +942,29 @@ h3.my-profession {
   .portfolio-img img {
     width: 100%;
     size: fit-content;
+  }
+  .info-item span
+  {
+   font-size: 14px
+  }
+  .modal-service
+  {
+    width: 70vw;
+  }
+  .close-modal 
+  {
+   margin-right: 30px;
+   margin-top: 30px;
+  }
+  #modalservice-content
+  {
+   padding-bottom: 20px;
+  }
+  #modalservice-content img
+  {
+   justify-content: center;
+   width:fit-content;
+   border-radius: 30px;
+   margin-top: 20px;
   }
 }
